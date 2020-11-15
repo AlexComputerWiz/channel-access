@@ -33,7 +33,7 @@ Jack Sparrow decides to enter the marina through the channel. He sails down the 
 
 ![Red](documentation/red-light.png)
 
-Here's how the Channel Access system flows
+**Here's how the Channel Access system flows:**
 
 ![flow](documentation/program.png)
 
@@ -44,24 +44,24 @@ Here's how the Channel Access system flows
 3.	After 60 seconds have passed, the light will turn YELLOW and begin a 20-second countdown sequence to notify you that the system will soon be re-armed. You cannot restart the countdown by pressing your key fob again.
 4.	Once the countdown sequence finishes, the light will revert back to its default state, RED, and will be re-armed.
 
-Intruder Alert Alarm:
+**Intruder Alert Alarm:**
 
 In the event that an unauthorized person attempts to enter through the photoelectric beams, the system will sound a 20-second visual and audible alarm to alert nearby security personnel. The amount of time the alarm sounds can be changed upon request.
 
-How to Reset the System:
+**How to Reset the System:**
 
 In the event of a system malfunction or a false alarm, security personnel at the channel guard shack can press the reset button, located on the right side of the green box inside the guard shack. The system will be reset and rearmed within 5 seconds.
 
-Powering the System On & Off:
+**Powering the System On & Off:**
 
 All main system components will be connected to a central power strip which can be powered on and off by toggling the red switch on the strip. It’s ideal to turn off the system during the day and turn it on at night when the guard shack is manned. 
 
-Maintaining Integrity & Security:
+**Maintaining Integrity & Security:**
 
 A critical element of this system is need for accountability of key fobs.  This is why it’s imperative that the Key-Fob Directory is maintained and that boat owners report when a key fob is lost so the serial number can be removed from the database.
 
 # Troubleshooting
 
-To troubleshoot the Channel Access System, please review my troubleshooting documentation below:
+To troubleshoot the Channel Access System, please review my [troubleshooting documentation](https://drive.google.com/file/d/1VE9fCSNxwDPs-8gqW1xlZSqOOrzAkF2S/view?usp=sharing )
 
- https://drive.google.com/file/d/1VE9fCSNxwDPs-8gqW1xlZSqOOrzAkF2S/view?usp=sharing 
+ 
