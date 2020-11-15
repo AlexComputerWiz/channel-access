@@ -19,6 +19,10 @@ The Arduino is the main controller for the entire system, as it runs the softwar
 
 ![Design](documentation/hardware-config.png)
 
+Here's the system wired up in the box. By no means do I consider this "clean". But when you're in another country building something from scratch with a very short notice, you adapt.
+
+![Box](documentation/wired.png)
+
 # How Everything Works Together
 
 The Optex beams and the AP-5 each provide input to the Arduino Mega in a clear and straightforward way: built-in SPDT relays. This means each device has a default state. The beams are HIGH when line of sight is stable, and the AP-5 is LOW when not receiving signal from a known key fob. When either of those states change, the Arduino will either sound the alarm or provide access and temporarily ignore the state of the beams while the resident passes through the channel. The lamp post is controlled by a 4-channel SPDT relay, which is controlled by the Arduino. The relay enables the Arduino to easily control each colored LED and the audible alarm while also providing a higher voltage of 12V to the LEDs without having to worry about the Arduino's lower 9V input. Additionally, a reset button was added to the system for the security team should they need to disable the alarm, or the Arduino is stuck. The reset is wired to the GND and RESET inputs rather than being logically coded into the program. This makes more sense in practical application. 
