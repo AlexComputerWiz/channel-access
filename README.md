@@ -21,7 +21,7 @@ The Arduino is the main controller for the entire system, as it runs the softwar
 
 Here's the system wired up in the box. By no means do I consider this "clean". But when you're in another country building something from scratch with a very short notice, you adapt.
 
-![Box](documentation/wired.png)
+![Box](documentation/wired2.png)
 
 # How Everything Works Together
 
