@@ -1,6 +1,6 @@
 # Channel Access - Powered by Arduino
 
-The --redacted-- marina channel employs two photo electric beams which are activated during hours of darkness. The beams are integrated with an access controller and a traffic light which provides a visual display of the beam status (red light / green light) and allows boat owners to deactivate the beam via key fob, similar to a garage door opener. Crossing through the beams while activated will trigger a visual and audible alarm to notify the --redacted-- security team of unauthorized access. Each key fob has a unique 6-digit ID number, which is linked to the resident’s name.
+The --redacted-- marina channel employs two photoelectric beams which are activated during hours of darkness. The beams are integrated with an access controller and a traffic light which provides a visual display of the beam status (red light / green light) and allows boat owners to deactivate the beam via key fob, similar to a garage door opener. Crossing through the beams while activated will trigger a visual and audible alarm to notify the --redacted-- security team of unauthorized access. Each key fob has a unique 6-digit ID number, which is linked to the resident’s name.
 
 # The Hardware Configuration
 
@@ -25,11 +25,11 @@ The Optex beams and the AP-5 each provide input to the Arduino Mega in a clear a
 
 # Simple Visual Process
 
-A resident drives their boat through the channel, activates their key fob. The AP-5 checks the ID number and sees if it matches one of it's known ID numbers from the database. The ID number matches. The accessGranted function runs, which turns the traffic light green and ignores input from the beams for s short period.
+A resident drives their boat through the channel, activates their key fob. The AP-5 checks the ID number and sees if it matches one of its known ID numbers from the database. The ID number matches. The accessGranted function runs, which turns the traffic light green and ignores input from the beams for s short period.
 
 ![Green](documentation/green-light.png)
 
-Jack Sparrow decides to enter the marina through the channel. He sails down the channel and trips the beam. The beam state inverts to LOW and the intruderAlert function runs, which activates a loud, ear piercing alarm and flashes the red light to get the security team's attention to take action.
+Jack Sparrow decides to enter the marina through the channel. He sails down the channel and trips the beam. The beam state inverts to LOW and the intruderAlert function runs, which activates a loud, ear-piercing alarm and flashes the red light to get the security team's attention to take action.
 
 ![Red](documentation/red-light.png)
 
@@ -62,4 +62,6 @@ A critical element of this system is need for accountability of key fobs.  This 
 
 # Troubleshooting
 
-To troubleshoot the Channel Access System, please review my troubleshooting documentation https://drive.google.com/file/d/1VE9fCSNxwDPs-8gqW1xlZSqOOrzAkF2S/view?usp=sharing 
+To troubleshoot the Channel Access System, please review my troubleshooting documentation below:
+
+ https://drive.google.com/file/d/1VE9fCSNxwDPs-8gqW1xlZSqOOrzAkF2S/view?usp=sharing 
